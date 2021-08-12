@@ -1,0 +1,113 @@
+.app {
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.app-Title {
+  font-family: "SFProText", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #000000;
+  padding-top: 36px;
+  padding-bottom: 17px;
+  max-width: 375px;
+  height: 70px;
+  top: 0px;
+  box-shadow: 0px 1px 0px #eaeaea;
+  margin: 0;
+}
+
+.camp-body {
+  display: flex;
+  flex-direction: column;
+  background: #f7fbfc;
+  /* border: 2px solid red; */
+}
+
+.item-Top {
+  display: flex;
+}
+
+.item-Top {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 18px;
+}
+
+.item-Top img {
+  max-width: 65px;
+  height: 65px;
+  margin-right: 20px;
+  background: #ffffff;
+  box-shadow: 0px 1px 0px #e0eef2;
+  border-radius: 18px;
+}
+
+.icon-Title-Area h2 {
+  /* border: 2px solid #ff2056; */
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 1px;
+  font-family: "SFProText", sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  /* identical to box height, or 147% */
+
+  letter-spacing: -0.456px;
+
+  color: #000000;
+}
+
+.icon-Title-Area p {
+  /* border: 2px solid #ff2056; */
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "SFProText", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  /* identical to box height, or 112% */
+
+  letter-spacing: -0.32px;
+
+  color: #009330;
+}
+
+.install-number {
+  font-weight: bold;
+}
+
+.camp-imgs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  column-gap: 12px;
+  overflow-x: scroll;
+}
+
+.camp-imgs-container img {
+  max-width: 102px;
+  min-height: 181px;
+  object-fit: contain;
+  margin-bottom: 4px;
+  /* border: 2px solid red; */
+}
+
+.trkLink {
+  content: url("./images/link.png");
+  width: 30px;
+  height: 30px;
+}
+
+.dlLink {
+  content: url("./images/dl.png");
+  width: 30px;
+  height: 30px;
+}
+
+/* .links {
+  margin: 0 auto;
+  border: 2px solid red;
+  height: 47px;
+} */
